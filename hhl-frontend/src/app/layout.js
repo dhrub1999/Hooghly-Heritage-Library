@@ -1,4 +1,4 @@
-import { DM_Sans, Montserrat, Jost } from "next/font/google";
+import { DM_Sans, Montserrat, Jost, Kalam } from "next/font/google";
 import "./globals.css";
 
 const montserrat = Montserrat({
@@ -19,6 +19,12 @@ const jost = Jost({
   display: "swap",
   weight: ["600", "700", "800", "900"],
 });
+const kalam = Kalam({
+  subsets: ["latin"],
+  variable: "--font-kalam",
+  display: "swap",
+  weight: ["400", "700"],
+});
 
 export const metadata = {
   title: "Create Next App",
@@ -29,7 +35,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${montserrat.variable} ${dmSans.variable} ${jost.variable}`}
+        className={`${montserrat.variable} ${dmSans.variable} ${jost.variable} ${kalam.variable} bg-neutral-50`}
       >
         {children}
       </body>
