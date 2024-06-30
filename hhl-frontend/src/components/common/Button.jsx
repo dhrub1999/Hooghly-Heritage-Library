@@ -4,14 +4,14 @@ import React from "react";
 import Icon from "../ui/icons";
 
 const buttonVariants = cva(
-  "group relative flex h-10 min-w-[160px] cursor-pointer items-center justify-center gap-x-1 rounded-[0.25rem] border bg-blue-600 px-3 font-dmSans text-sm-body-sm font-semibold text-white md:h-12 md:gap-x-[0.375rem] md:rounded-md md:px-[0.875rem] md:text-md-body-sm lg:h-14 lg:gap-x-2 lg:rounded-lg lg:px-4 lg:text-lg-body-sm xl:text-lg-body-md user-select-none transition-colors duration-300 ease-in-out",
+  "group relative flex h-10 min-w-[136px] cursor-pointer items-center justify-center gap-x-1 rounded-[0.25rem] border bg-blue-600 px-3 font-dmSans text-sm-body-sm font-semibold md:h-12 md:gap-x-[0.375rem] md:rounded-md md:px-[0.875rem] md:text-md-body-sm lg:h-14 lg:gap-x-2 lg:rounded-lg lg:px-4 lg:text-lg-body-sm xl:text-lg-body-md user-select-none transition-colors duration-300 ease-in-out",
   {
     variants: {
       variant: {
         primary:
           "bg-primary-300 text-neutral-cream-500 group-hover:bg-primary-400 group-hover:text-neutral-cream-400 border-primary-300 group-hover:border-primary-400 group-focus:border-primary-400 group-focus:text-primary-400 group-focus:bg-neutral-off-white-300 group-focus:border-primary-400",
         secondary:
-          "bg-neutral-off-white-300 border-neutral-warm-grey-500 group-hover:border-neutral-warm-grey-400 text-neutral-warm-grey-500 group-hover:bg-neutral-off-white-400 group-hover:text-neutral-warm-grey-400 border-neutral-off-white-300 group-hover:border-neutral-off-white-400 group-focus:border-neutral-cream-500 group-focus:text-neutral-cream-500 group-focus:bg-neutral-warm-grey-500 ",
+          "bg-neutral-off-white-300 border-neutral-warm-grey-500 text-neutral-warm-grey-500  group-hover:bg-neutral-off-white-400 group-hover:text-neutral-warm-grey-400 border-neutral-off-white-300 group-hover:border-neutral-off-white-400 group-focus:border-neutral-cream-500 group-focus:text-neutral-cream-500 group-focus:bg-neutral-warm-grey-500 group-hover:border-neutral-warm-grey-400",
         success:
           "bg-neutral-off-white-300 text-success-400 border-success-400 group-hover:border-success-500 group-hover:text-success-300 group-hover:bg-success-500 group-focus:border-success-500 group-focus:text-success-500 group-focus:bg-neutral-off-white-300",
         danger:

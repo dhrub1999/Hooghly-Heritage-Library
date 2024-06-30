@@ -52,7 +52,6 @@ module.exports = {
         "sm-caption-md": ["0.6875rem", "145%"],
         "sm-caption-sm": ["0.625rem", "140%"],
 
-        "jost-xl": ["4.5rem", "139%"],
         "jost-lg": ["4rem", "139%"],
         "jost-md": ["3.5rem", "139%"],
         "jost-sm": ["2.5rem", "139%"],
@@ -98,6 +97,10 @@ module.exports = {
           400: "#F24E1A",
           500: "#AE2D04",
         },
+      },
+      backgroundImage: {
+        "hero-gradiant":
+          "radial-gradient(circle, rgba(253,251,242,1) 30%, rgba(242,230,201,1) 85%)",
       },
     },
   },

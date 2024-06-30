@@ -35,7 +35,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${montserrat.variable} ${dmSans.variable} ${jost.variable} ${kalam.variable} bg-neutral-50`}
+        className={`${montserrat.variable} ${dmSans.variable} ${jost.variable} ${kalam.variable} overflow-x-hidden bg-neutral-50 font-dmSans`}
       >
         {children}
       </body>
