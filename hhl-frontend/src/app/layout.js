@@ -1,5 +1,6 @@
 import { DM_Sans, Montserrat, Jost, Kalam } from "next/font/google";
 import "./globals.css";
+import Header from "@/components/ui/Header";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -37,6 +38,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${montserrat.variable} ${dmSans.variable} ${jost.variable} ${kalam.variable} overflow-x-hidden bg-neutral-50 font-dmSans`}
       >
+        <Header />
         {children}
       </body>
     </html>
