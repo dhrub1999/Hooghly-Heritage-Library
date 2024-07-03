@@ -7,7 +7,7 @@ const Logo = ({ className }) => {
       viewBox="0 0 64 64"
       fill="none"
       className={twMerge(
-        "h-10 w-10 fill-primary-400 transition-colors duration-300 ease-in-out hover:fill-primary-300 focus:fill-primary-500 md:h-12 md:w-12 lg:h-14 lg:w-14 xl:h-16 xl:w-16",
+        "h-8 w-8 fill-primary-400 transition-colors duration-300 ease-in-out hover:fill-primary-300 focus:fill-primary-500 md:h-10 md:w-10 lg:h-12 lg:w-12 xl:h-14 xl:w-14",
         className,
       )}
     >

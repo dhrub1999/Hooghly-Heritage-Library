@@ -4,11 +4,14 @@ import Icon from "../ui/icons";
 
 const Dropdown = ({ label, items, onSelect }) => {
   const [open, setIsOpen] = useState(false);
+
   const toggleDropdownMenu = () => setIsOpen(!open);
+
   const handleSelect = (item) => {
     onSelect(item);
     setIsOpen(false);
   };
+
   return (
     <div className="relative inline-block text-left">
       <div>
@@ -20,7 +23,7 @@ const Dropdown = ({ label, items, onSelect }) => {
           {label}
           <span className="ml-2">
             <Icon
-              name="chevronRight"
+              name="rightarrow"
               className={`fill-neutral-warm-grey-300 transition-all duration-200 ease-linear ${open ? "rotate-90" : ""}`}
             />
           </span>
